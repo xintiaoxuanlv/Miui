@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_pbap_pce_profile">false</bool>
+    <bool name="config_recents_interface_for_tablets">false</bool>
+    <bool name="config_recents_thumbnail_image_fits_to_xy">false</bool>
+    <bool name="config_hspa_data_distinguishable">true</bool>
+    <bool name="config_statusBarShowNumber">false</bool>
+    <bool name="config_showPhoneRSSIForData">false</bool>
+    <bool name="config_showMin3G">false</bool>
+    <bool name="config_showRotationLock">true</bool>
+    <bool name="config_dead_zone_flash">false</bool>
+    <bool name="config_flash_camera">false</bool>
+    <bool name="config_protect_csp">false</bool>
+    <bool name="config_show_statusbar_blur_bg">true</bool>
+    <bool name="config_show_statusbar_search">false</bool>
+    <bool name="config_show_clear_button_in_bottom">true</bool>
+    <bool name="taskmanager_default_is_screenshot_mode">true</bool>
+    <bool name="expanded_status_bar_darkmode">false</bool>
+    <bool name="auto_modify_expanded_header_color">true</bool>
+    <bool name="show_expanded_header_on_land">false</bool>
+    <bool name="recents_grow_in_multiwindow">true</bool>
+</resources>
