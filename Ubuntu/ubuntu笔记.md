@@ -293,3 +293,18 @@ http://www.noobslab.com 主题资源
 https://mirrors.tuna.tsinghua.edu.cn/
 
 
+双系统win10+Ubuntu时间不准确的解决方法
+
+打开终端 安装ntpdate
+
+sudo apt-get install ntpdate
+
+然后更新win的时间
+
+sudo ntpdate time.windows.com
+
+然后将时间更新到硬件上：
+
+sudo hwclock --localtime --sysohc
+
+
