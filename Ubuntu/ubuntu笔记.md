@@ -307,4 +307,8 @@ sudo ntpdate time.windows.com
 
 sudo hwclock --localtime --sysohc
 
+手机端 LoneyFool Tools ext4 安装后解决权限问题
+
+终端运行： busybox mount -o remount,rw,suid,dev,atime /data
+
 
