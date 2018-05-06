@@ -313,8 +313,11 @@ sudo hwclock --localtime --sysohc
 
 
 Windows 双系统 Ubuntu 不能进入 Ubuntu 解决方法
-
+利用Ubuntu镜像安装模式，然后点击Try Ubuntu
+在终端执行一下命令
 sudo add-apt-repository ppa:yannubuntu/boot-repair
 sudo apt-get install boot-repair
+打开 boot repair 工具
+选择
 Recommended repair
-
+等待修复完成重启即可
