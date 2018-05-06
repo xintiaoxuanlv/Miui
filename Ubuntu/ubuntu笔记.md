@@ -312,3 +312,9 @@ sudo hwclock --localtime --sysohc
 终端运行： busybox mount -o remount,rw,suid,dev,atime /data
 
 
+Windows 双系统 Ubuntu 不能进入 Ubuntu 解决方法
+
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo apt-get install boot-repair
+Recommended repair
+
