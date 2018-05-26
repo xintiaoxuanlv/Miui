@@ -311,13 +311,54 @@ sudo hwclock --localtime --sysohc
 
 终端运行： busybox mount -o remount,rw,suid,dev,atime /data
 
-
 Windows 双系统 Ubuntu 不能进入 Ubuntu 解决方法
+
 利用Ubuntu镜像安装模式，然后点击Try Ubuntu
+
 在终端执行一下命令
+
 sudo add-apt-repository ppa:yannubuntu/boot-repair
+
 sudo apt-get install boot-repair
+
 打开 boot repair 工具
-选择
-Recommended repair
-等待修复完成重启即可
+
+选择 Recommended repair
+
+等待修复完成重启即可 
+
+Ubuntu安装谷歌浏览器
+
+点击左上角的 Dash 的搜索框中输入 terminal 或“终端”，点击启动终端，或直接组合键按下 Ctrl + Alt + t ，启动终端；
+在Ubuntu 中安装谷歌浏览器
+
+2、添加下载源到系统的源列表。在终端输入以下命令：
+
+sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+
+3、导入谷歌的公钥用于接下来对软件进行验证。在终端输入以下命令：
+
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+
+正常显示OK 
+
+4、对系统的可用更新列表进行更新，获取最新的软件版本信息。在终端中输入以下命令：
+
+sudo apt-get update
+
+更新完后命令将返回图中所示信息；
+
+5、谷歌浏览器的安装。在终端中输入以下命令：
+
+sudo apt-get install google-chrome-stable
+
+6、启动浏览器。此时再次点击左上角的dash，输入google将会看到刚刚安装 好的谷歌浏览器，点击即可启动。
+
+或者在终端中执行以下命令：
+
+/usr/bin/google-chrome-stable
+
+将会直接启动谷歌浏览器。
+
+
+
