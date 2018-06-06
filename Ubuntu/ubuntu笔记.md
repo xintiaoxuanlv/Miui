@@ -360,5 +360,51 @@ sudo apt-get install google-chrome-stable
 
 将会直接启动谷歌浏览器。
 
+Kali Linux Go环境变量搭建
+
+Go 安装包下载
+https://studygolang.com/dl
+
+官方安装教程
+
+http://docs.studygolang.com/doc/install
+
+把已经下载的Go语言安装包进行解压到 /usr/local
+
+tar -xzf go1.8.3.linux-amd64.tar.gz -C /usr/local
+
+命令添加环境
+echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
+
+手动添加环境
+
+gedit /etc/profile
+
+拉到最后一行添加以下代码：
+
+export GOROOT=/usr/local/go
+export GOPATH=~/golib:~/goproject
+export GOBIN=~/gobin
+export PATH=$PATH:$GOROOT/bin:$GOBIN
+
+然后更新 /etc/profile 文件
+
+source /etc/profile 
+
+测试环境
+
+go version
+
+安装输入法
+
+apt-get install fcitx fcitx-googlepinyin
+
+然后注销或者重启生效
+
+
+
+
+
+
 
 
