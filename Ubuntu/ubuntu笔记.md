@@ -384,7 +384,7 @@ gedit /etc/profile
 
 export GOROOT=/usr/local/go
 
-export GOPATH=~/golib:~/goproject
+export GOPATH=/golib:~/goproject
 
 export GOBIN=~/gobin
 
@@ -403,11 +403,3 @@ go version
 apt-get install fcitx fcitx-googlepinyin
 
 然后注销或者重启生效
-
-
-
-
-
-
-
-
