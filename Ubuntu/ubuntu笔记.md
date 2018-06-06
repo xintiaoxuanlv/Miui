@@ -383,8 +383,11 @@ gedit /etc/profile
 拉到最后一行添加以下代码：
 
 export GOROOT=/usr/local/go
+
 export GOPATH=~/golib:~/goproject
+
 export GOBIN=~/gobin
+
 export PATH=$PATH:$GOROOT/bin:$GOBIN
 
 然后更新 /etc/profile 文件
