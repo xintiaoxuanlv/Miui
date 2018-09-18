@@ -403,3 +403,13 @@ go version
 apt-get install fcitx fcitx-googlepinyin
 
 然后注销或者重启生效
+
+
+Windows 系统安装直接开启Administrator帐户
+
+1、安装完成系统后会弹出设置新帐户界面，先不要管它
+
+2、然后按住shift+F10，进入cmd窗口，接着输入lusrmgr.msc回车，弹出本地用户和组的界面，点击用户开启Administrator帐户即可
+
+3、在CMD窗口再次输入taskmgr.exe调出任务管理界面，点击msoobe进程结束任务后会自动进入系统界面了
+	
